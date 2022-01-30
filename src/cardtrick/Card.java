@@ -7,7 +7,7 @@ public class Card
     private String suit;
     
     public static final String[] SUITS = {"diamonds","spades","clubs","hearts"};
-
+    
     /**
      * @return the numbers
      */
@@ -28,9 +28,18 @@ public class Card
     }
 
   //suit the suit to set
-     
-    public void setSuit(String suit) {
+   
+    public void setSuit(String Hearts, String Diamonds, String Clubs, String Spades) {
         this.suit = suit;
+    }
+    
+    public String toString()
+    {
+    return this.suit;
+    }
+
+    void setSuit() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     
