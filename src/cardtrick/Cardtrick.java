@@ -22,6 +22,10 @@ public class Cardtrick {
         Scanner input = new Scanner(System.in);
         
       Card[] magicHand = new Card[7];
+        
+        Card[] luckyCard = new Card();
+        int num = 7;
+        String suit = "Diamonds";
       
                  //random generation for number/use method
       
