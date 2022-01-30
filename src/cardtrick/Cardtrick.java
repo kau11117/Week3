@@ -23,10 +23,6 @@ public class Cardtrick {
         
       Card[] magicHand = new Card[7];
         
-        Card[] luckyCard = new Card();
-        int num = 7;
-        String suit = "Diamonds";
-      
                  //random generation for number/use method
       
        //Array of object 
@@ -54,7 +50,12 @@ public class Cardtrick {
       
             System.out.println("Congratulations! Your card is generated!");
        
+        Card luckyCard = new Card();   // create card object for my luckycard
+        int num = 7;
+        String suit = "Diamonds";
+        System.out.println("My lucky card suit is: " + suit + " " + "and number is: " + num);
 }
+    
      
     // step 3 do change in remote repository. hard coded card details card number =2,hearts to find in array
     }
